@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Jogo da Imitação</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet">
+
+    <script denfer src="index.js"></script>
+    <script denfer src="js.js"></script>
+</head>
+<body>
+    <header >
+        <img src="./img/logo.pnj" class="logo">
+
+       <div >
+        <ul  class="inicio" >
+            <li><a href="#">Home</a> </li>
+            <li><a href="#d">Detalhes</a> </li>
+            <li><a href="#f"> Mais filmes </a></li>
+            
+        </ul>
+       </div>
+    </header>
+    <main>
+        <div class="container" id="d">
+        <section >
+            <img src="./img/inicio.jpg" class="cont-img" id="cont-img">
+        </section>
+        <section class="container-detalhes">
+            <h1>Filme: O Jogo da Imitação</h1>
+            <p>Em 1939, a recém-criada agência de inteligência britânica MI6 recruta 
+                Alan Turing, um aluno da Universidade de Cambridge, para entender códigos nazistas, 
+                incluindo o "Enigma", que criptógrafos acreditavam ser inquebrável. A equipe de Turing, 
+                incluindo Joan Clarke, analisa as mensagens de "Enigma", enquanto ele constrói uma máquina
+                para decifrá-las. Após desvendar as codificações, Turing se torna herói. Porém, em 1952, 
+                autoridades revelam sua homossexualidade, e a vida dele vira um pesadelo.</p>
+            </div>
+            <div class="trailer">
+                
+                <iframe class="hide" id="video" width="560" height="315" src="https://www.youtube.com/embed/GxokSkSqF5E" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                web-share" allowfullscreen></iframe>
+                <button class="detalhes" id="btn" onclick="toggle('video')">Ver trailer</button>
+        </div>
+        </section>
+        
+    </main>
+    <footer>
+      <h2 class="filme">Filmes semelhantes:</h2>
+      
+        <ul class="lista-filme" id="f">
+            <li><a href="#"> A Batalha das Correntes</a></li>
+            <li><a href="#">Segredos Oficiais</a></li>
+            <li><a href="#">O Homem do Coração de Ferro</a></li>
+        </ul>
+
+    </footer>
+    
+</body>
+</html>

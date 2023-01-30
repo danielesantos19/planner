@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-image: url(./img/fundo.jpg);   
+     color: white;
+     background-repeat:no-repeat;
+     width: 100%;
+     position: relative;
+     background-size: 100% 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;/*deixa um em cada canto*/
+    padding: 20px;
+}
+.logo{
+    width: 50px;
+    margin: 1rem;
+    
+}
+.inicio{
+    display: flex;
+    align-items: center;
+    height: 100%; 
+
+}
+.inicio li a {
+    font-weight: bold;
+    color: red;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.inicio li a:hover{
+    font-size: 30px;
+    color: blue;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    align-items: center;
+    
+}
+.container section{
+    display: flex;
+    justify-content: space-between;
+}
+.cont-img{
+    padding: 3%;
+    width: 30vw;
+    opacity: 0.9;
+}
+.container-detalhes{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.trailer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detalhes{
+    color: black;
+    font-weight: bold;
+    background: grey;
+    font-size: 20px;
+    width: 10%;
+}
+.detalhes:hover{
+    font-size: 25px;
+    color: red;
+    border: none;
+}
+footer h2{
+    text-align: center;
+    color: white;
+}
+.lista-filme {
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+#f a{
+    color: white;
+}
+#f a:hover{
+ color: blue;
+}
+
